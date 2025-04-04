@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "tests"
+version = "0.1.0"
+description = "Automated tests for SZSE market data"
+authors = ["Edwin Law <edwinkhlaw@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "3.9.6"
+requests = "2.32.3"
+pytest = "8.3.5"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
